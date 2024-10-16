@@ -8,7 +8,7 @@ function Navbar() {
         <div className="flex justify-between items-center">       
             <div className="text-3xl text-olive font-medium tracking-widest">LUXEtABLE</div>
           <div className="flex items-center space-x-4">
-            <input type="text" placeholder="Search" className="border px-2 py-1" />
+            <input type="text" placeholder="Search" className="border-b border-olive px-2 py-1" />
             <button className="bg-olive text-white px-4 py-1">Log In</button>        
                 <FaCartShopping className='text-olive text-2xl'/>  
             

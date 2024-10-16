@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "olive": "#223d34",
+        "olive": "#2d4a3b",
       },
     },
   },
