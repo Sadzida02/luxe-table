@@ -1,10 +1,13 @@
-
+import Image from 'next/image'
 import React from 'react'
+import Poster from '@/components/Poster'
 
 function page() {
   return (
-    <div className='pt-32'>
-        <p>Product Page</p>
+
+    <div className="px-4 md:px-8 lg:px-16 pt-28">
+       <Poster />
+
       
     </div>
   )

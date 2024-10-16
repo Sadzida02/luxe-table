@@ -13,7 +13,7 @@ function ProductCategories() {
                 width={400}
                 height={350}
                 alt="plates" />
-                <a href="" className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Dinner Sets</a>
+                <h3 className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Dinner Sets</h3>
             </Link>
             <Link href="/" className="bg-gray-100 p-4 flex flex-col gap-4 sm:w-[90%] md:w-[40%] lg:w-[30%] hover:animate-pulse">
                 <Image  
@@ -21,7 +21,7 @@ function ProductCategories() {
                 width={400}
                 height={350}
                 alt="plates" />
-                <a href="" className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Glasses</a>
+                <h3 className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Glasses</h3>
             </Link>
             <Link href="7" className="bg-gray-100 p-4 flex flex-col gap-4 sm:w-[90%] md:w-[40%] lg:w-[30%] hover:animate-pulse">
                 <Image  
@@ -29,7 +29,7 @@ function ProductCategories() {
                 width={400}
                 height={350}
                 alt="plates" />
-                <a href="" className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Utensils</a>
+                <h3 className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Utensils</h3>
             </Link>
             <Link href="7" className="bg-gray-100 p-4 flex flex-col gap-4 sm:w-[90%] md:w-[40%] lg:w-[30%] hover:animate-pulse">
                 <Image  
@@ -37,7 +37,7 @@ function ProductCategories() {
                 width={400}
                 height={350}
                 alt="plates" />
-                <a href="" className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Pots and Pans</a>
+                <h3 className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Pots and Pans</h3>
             </Link>
             <Link href="7" className="bg-gray-100 p-4 flex flex-col gap-4 sm:w-[90%] md:w-[40%] lg:w-[30%] hover:animate-pulse">
                 <Image  
@@ -45,7 +45,7 @@ function ProductCategories() {
                 width={400}
                 height={350}
                 alt="plates" />
-                <a href="" className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Table Decor</a>
+                <h3 className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Table Decor</h3>
             </Link>
             <Link href="7" className="bg-gray-100 p-4 flex flex-col gap-4 sm:w-[90%] md:w-[40%] lg:w-[30%] hover:animate-pulse">
                 <Image  
@@ -53,7 +53,7 @@ function ProductCategories() {
                 width={400}
                 height={350}
                 alt="plates" />
-                <a href="" className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Organizers</a>
+                <h3 className='bg-transparent border-[1px] border-solid border-olive text-olive text-3xl font-medium p-2 py-2'>Organizers</h3>
             </Link>
            
         
