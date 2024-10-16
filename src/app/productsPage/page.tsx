@@ -1,13 +1,17 @@
-import Image from 'next/image'
 import React from 'react'
 import Poster from '@/components/Poster'
+import Filter from '@/components/Filter'
+import ProductList from '@/components/ProductList'
 
 function page() {
   return (
 
     <div className="px-4 md:px-8 lg:px-16 pt-28">
        <Poster />
-
+       <h1 className='mt-12 text-xl font-semibold text-olive '>Specially for you!</h1>
+       <Filter />
+       <ProductList/>
+       
       
     </div>
   )
