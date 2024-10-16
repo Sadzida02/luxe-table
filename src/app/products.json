@@ -1,0 +1,18 @@
+{ "products": [
+    {
+        "id": "1",
+        "image": "/plates1.jpg",
+        "category":"[PLATES]",
+        "name": "Tha Teal Dining Set",
+        "price":"$179.99"
+
+    },
+    {
+        "id": "2",
+        "image": "/plates1.jpg",
+        "category":"[PLATES]",
+        "name": "Tha Teal Dining Set",
+        "price":"$179.99"
+
+    }
+]}

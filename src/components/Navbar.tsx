@@ -1,14 +1,16 @@
 import React from 'react'
 import { FaCartShopping } from "react-icons/fa6";
+import { IoIosSearch } from "react-icons/io";
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow-md fixed w-full">
+    <nav className="bg-white shadow-md fixed w-full h-20 md:px-8 lg:px-16">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">       
-            <div className="text-3xl text-olive font-medium tracking-widest">LUXEtABLE</div>
+            <a href='/' className="text-3xl text-olive font-medium tracking-widest">LUXEtABLE</a>
           <div className="flex items-center space-x-4">
-            <input type="text" placeholder="Search" className="border-b border-olive px-2 py-1" />
+            <IoIosSearch/>
+            <input type="text" placeholder="Search" className="border-b border-olive px-2 py-1"/>
             <button className="bg-olive text-white px-4 py-1">Log In</button>        
                 <FaCartShopping className='text-olive text-2xl'/>  
             
