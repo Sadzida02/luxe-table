@@ -8,7 +8,7 @@ function page() {
 
     <div className="px-4 md:px-8 lg:px-16 pt-28">
        <Poster />
-       <h1 className='mt-12 text-xl font-semibold text-olive '>Specially for you!</h1>
+       <h1 className='mt-12 text-xl font-semibold text-olive text-center'>SEE OUR OFFERS!</h1>
        <Filter />
        <ProductList/>
        

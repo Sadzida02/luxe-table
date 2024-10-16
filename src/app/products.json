@@ -3,16 +3,143 @@
         "id": "1",
         "image": "/plates1.jpg",
         "category":"[PLATES]",
-        "name": "Tha Teal Dining Set",
-        "price":"$179.99"
+        "name": "Tha Teal Set",
+        "price":"$179.99",
+        "description": "The best quality dishes"
 
     },
     {
         "id": "2",
-        "image": "/plates1.jpg",
+        "image": "/utensils2.jpg",
+        "category":"[UTENSILS]",
+        "name": "Perl utensils",
+        "price":"$49.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "3",
+        "image": "/pots2.jpg",
+        "category":"[PANS AND POTS]",
+        "name": "Granite Pots",
+        "price":"$299.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "4",
+        "image": "/glasses4.jpg",
+        "category":"[GLASSES]",
+        "name": "Rainbow Glasses",
+        "price":"$59.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "5",
+        "image": "/utensils5.jpg",
+        "category":"[UTENSILS]",
+        "name": "FLower Utensils",
+        "price":"$39.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "6",
+        "image": "/plates2.jpg",
         "category":"[PLATES]",
-        "name": "Tha Teal Dining Set",
-        "price":"$179.99"
+        "name": "Pink Dining Set",
+        "price":"$189.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "7",
+        "image": "/plates3.jpg",
+        "category":"[PLATES]",
+        "name": "Gold Dining Set",
+        "price":"$199.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "8",
+        "image": "/plates4.jpg",
+        "category":"[PLATES]",
+        "name": "Premium Dining Set",
+        "price":"$189.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "9",
+        "image": "/organizers2.jpg",
+        "category":"[ORGANIZERS]",
+        "name": "5 Piece Wood Organizers",
+        "price":"$49.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "10",
+        "image": "/utensils3.jpg",
+        "category":"[UTENSILS]",
+        "name": "Gold and Blue Spoons",
+        "price":"$49.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "11",
+        "image": "/glasses2.jpg",
+        "category":"[GLASSES]",
+        "name": "Super Tall Glasses",
+        "price":"$49.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "12",
+        "image": "/pots3.jpg",
+        "category":"[PANS AND POTS]",
+        "name": "Mat Beige Pots",
+        "price":"$49.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "13",
+        "image": "/utensils4.jpg",
+        "category":"[UTENSILS]",
+        "name": "Mint Plastic Utensils",
+        "price":"$49.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "14",
+        "image": "/glasses3.jpg",
+        "category":"[GLASSES]",
+        "name": " Flower Glass Cups",
+        "price":"$79.99",
+        "description": "The best quality dishes"
+    },
+    {
+        "id": "15",
+        "image": "/tablecloths.jpg",
+        "category":"[TABLECLOTHS]",
+        "name": "Mint tabledecor",
+        "price":"$49.99",
+        "description": "The best quality dishes"
+
+    },
+    {
+        "id": "16",
+        "image": "/organizers1.jpg",
+        "category":"[ORGANIZERS]",
+        "name": "Plastic organizers",
+        "price":"$29.99",
+        "description": "The best quality dishes"
 
     }
 ]}

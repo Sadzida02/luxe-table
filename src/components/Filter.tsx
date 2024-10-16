@@ -17,7 +17,7 @@ const Filter = () => {
   };*/
 
   return (
-    <div className="my-12 flex justify-between ">
+    <div className="my-12 flex justify-between md:px-8 lg:px-16">
         <select
           name="cat"
           className="py-2 px-4  h-max text-md font-medium bg-[#EBEDED]"
