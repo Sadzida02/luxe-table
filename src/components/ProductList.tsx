@@ -18,7 +18,7 @@ async function ProductList() {
     <div className='flex gap-x-8 gap-y-16 justify-between flex-wrap md:px-8 lg:px-16 my-10'> 
     
      {products.map((product) => (
-        <Link href="" key={product.id}className="bg-gray-100 p-2 flex flex-col full gap-4 sm:w-[45%] lg:w-[22%]">
+        <Link href={`../productsPage/${product.id}`} key={product.id} className="bg-gray-100 p-2 flex flex-col full gap-4 sm:w-[45%] lg:w-[22%]">
         <Image  
         src={product.image}
         width={250}

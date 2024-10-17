@@ -3,7 +3,7 @@
         "id": "1",
         "image": "/plates1.jpg",
         "category":"[PLATES]",
-        "name": "Tha Teal Set",
+        "name": "Tha Teal Dining Set",
         "price":"$179.99",
         "description": "The best quality dishes"
 
@@ -12,7 +12,7 @@
         "id": "2",
         "image": "/utensils2.jpg",
         "category":"[UTENSILS]",
-        "name": "Perl utensils",
+        "name": "Perl Gold utensils",
         "price":"$49.99",
         "description": "The best quality dishes"
 
@@ -21,7 +21,7 @@
         "id": "3",
         "image": "/pots2.jpg",
         "category":"[PANS AND POTS]",
-        "name": "Granite Pots",
+        "name": "Granite Pots Set",
         "price":"$299.99",
         "description": "The best quality dishes"
 
