@@ -17,9 +17,9 @@ async function ProductDetails({params}) {
     return (
       <div className=' w-full lg:flex justify-between py-28 px-4 md:px-16 lg:px-44'> 
         <div className='lg:w-1/2 w-full'>
-          <h2 className='text-3xl font-bold pt-10 text-olive'>PRODUCT DETAILS</h2>
-          <div className='text-2xl text-slate-300 py-3'>{product.category}</div>
-          <div className='text-[30px] font-bold text-olive
+          <h2 className='text-2xl font-bold pt-10 text-olive'>PRODUCT DETAILS</h2>
+          <div className='text-xl text-slate-400 py-3'>{product.category}</div>
+          <div className='text-4xl font-bold text-olive
           py-3'>{product.name}</div>
   
           <div className='pb-3 flex flex-col'>
