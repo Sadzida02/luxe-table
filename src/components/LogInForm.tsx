@@ -1,33 +1,32 @@
 import React from 'react'
-import { IoIosCloseCircle } from "react-icons/io"
+import { login } from '@/actions';
 
-const LogIn  = ( {isVisible, onClose} ) => {
-  if ( !isVisible ) return null;
+export default function LogIn() {
   return (
-    <div className='fixed inset-0 backdrop-blur flex justify-center items-center'>
+    <div className='flex justify-center items-center pt-28'>
       <div className="bg-white p-8 rounded shadow-md w-96">
+
         <div className='flex justify-between'>
             <h2 className="text-2xl font-semibold mb-4 text-olive">Log In</h2>
-            <IoIosCloseCircle className='text-olive w-8 h-8' onClick={() => onClose()}/>
-
         </div>
-        <form>
+        <form action={login}>
           <div className="mb-4">
             <label htmlFor="email" className="block text-md font-md text-olive">
-              Email Address
+              Username:
             </label>
             <input
-              type="email"
-              id="email"
+              name='username'
+              type="text"
               required
               placeholder='example@gmail.com'
               className="mt-1 p-2 w-full border rounded-md"/>
           </div>
           <div className="mb-4">
             <label htmlFor="password" className="block text-md text-olive">
-              Password
+              Password:
             </label>
             <input
+              name='password'
               type="password"
               id="password"
               required
@@ -50,7 +49,7 @@ const LogIn  = ( {isVisible, onClose} ) => {
   )
 }
 
-export default LogIn
+
 
 
 
