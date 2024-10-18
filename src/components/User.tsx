@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { FaCartShopping } from "react-icons/fa6";
+import LogOutForm from './LogOutForm';
 
 function LogOutButton() {
   return (
@@ -11,6 +12,9 @@ function LogOutButton() {
         height={40}
         alt='user'/>
         <FaCartShopping className='text-olive text-2xl'/>
+        
+          <LogOutForm />
+        
         
       
     </div>

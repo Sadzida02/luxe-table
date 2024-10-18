@@ -24,8 +24,7 @@ async function ProductList() {
         src={product.image}
         width={250}
         height={250}
-        alt={product.name}
-        objectFit='true'/>
+        alt={product.name}/>
 
         <div className='flex flex-col justify-around'>
             <div className='flex flex-col'>

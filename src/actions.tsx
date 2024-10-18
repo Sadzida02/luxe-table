@@ -15,7 +15,7 @@ export const getSession = async ()=> {
     return session;
 }
 
-export const login = async (formData: FormData) => {
+export const login = async (prevState:{error:undefined | string}, formData: FormData) => {
     const session = await getSession()
     const formUsername = formData.get("username") as string
     const formPassword = formData.get("password") as string
@@ -23,7 +23,7 @@ export const login = async (formData: FormData) => {
     //const user = await db.getUser({username,password});
 
     if (formUsername !== username) {
-        return { alert: "Wrong credenetials"}
+        return { error: "* Wrong credentials, try again!"}
     }
     session.userId="1"
     session.username = formUsername;
@@ -32,4 +32,8 @@ export const login = async (formData: FormData) => {
     await session.save();
     redirect("/");
 };
-export const logout = async () => {};
+export const logout = async () => {
+    const session = await getSession();
+    session.destroy();
+    redirect("/");
+};
