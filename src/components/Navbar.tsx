@@ -1,9 +1,8 @@
 import React from 'react'
 import SearchBar from './SearchBar';
 import LogInButton from './LogInButton';
-import { useState } from 'react';
-import User from './User';
 import { getSession } from '@/actions';
+import LogOutButton from './LogOutButton';
 
 const Navbar = async () => {
 
@@ -18,7 +17,7 @@ const Navbar = async () => {
             <a href='/' className="text-3xl text-olive font-medium tracking-widest">LUXEtABLE</a>
           <div className="flex items-center space-x-4">
                 <SearchBar />
-                {session.isLoggedIn && <User />}
+                {session.isLoggedIn && <LogOutButton />}
                 {!session.isLoggedIn && <LogInButton />} 
                  
             

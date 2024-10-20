@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { FaCartShopping } from "react-icons/fa6";
 import LogOutForm from './LogOutForm';
 
-function LogOutButton() {
+export default async function LogOutButton() {    
   return (
     <div className='flex justify-around items-center gap-5'>
         <Image 
@@ -11,14 +11,10 @@ function LogOutButton() {
         width={40}
         height={40}
         alt='user'/>
-        <FaCartShopping className='text-olive text-2xl'/>
         
-          <LogOutForm />
-        
-        
-      
+        <a href="/CartPage"><FaCartShopping className='text-olive text-2xl'/></a>  
+        <LogOutForm />
     </div>
   )
 }
 
-export default LogOutButton
